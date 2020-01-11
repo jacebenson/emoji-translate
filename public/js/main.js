@@ -4,9 +4,6 @@ function translate(text){
         jQuery('#result').text(data.text);
     });
 }
-jQuery('#translate').on('touchstart', function(){
-    translate(jQuery('#text').val());
-});
-jQuery('#translate').on('click', function () {
+jQuery('#translate').bind("click touchstart", function(){
     translate(jQuery('#text').val());
 });
