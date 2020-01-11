@@ -5,6 +5,11 @@ function translate(text){
         jQuery('#result').text(data.text);
     });
 }
-jQuery('#text').on('keyup', function(){
-    translate(jQuery('#text').val());
-});
+var lastValue = "";
+setInterval(function(){
+    var newValue = jQuery('#text').val();
+    if(lastValue != newValue){
+        lastValue = newValue;
+        translate(newValue);
+    }
+}, 1000);
