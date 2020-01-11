@@ -1,7 +1,7 @@
 const translate = require('moji-translate');
 const express = require("express");
 const app = express();
-const port = process.env.port;
+const port = process.env.port || 3000;
 app.use(express.static('public')); //use static files in ROOT/public folder
 
 app.get('/emoji', function(request, response){
