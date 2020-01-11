@@ -4,6 +4,6 @@ function translate(text){
         jQuery('#result').text(data.text);
     });
 }
-jQuery('#text').keyup("click touchend", function(){
+jQuery('#text').on('keyup input', function(){
     translate(jQuery('#text').val());
 });
