@@ -1,0 +1,29 @@
+{
+  "name": "emoji-translate",
+  "version": "1.0.0",
+  "description": "webserver to translate text to emoji",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacebenson/emoji-translate.git"
+  },
+  "keywords": [
+    "moji-translate",
+    "emoji",
+    "translate",
+    "node",
+    "nodejs"
+  ],
+  "author": "Jace Benson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacebenson/emoji-translate/issues"
+  },
+  "homepage": "https://github.com/jacebenson/emoji-translate#readme",
+  "dependencies": {
+    "moji-translate": "^1.0.8"
+  }
+}
