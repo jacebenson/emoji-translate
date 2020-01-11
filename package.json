@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/jacebenson/emoji-translate#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "moji-translate": "^1.0.8"
   }
 }
